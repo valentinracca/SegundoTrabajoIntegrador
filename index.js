@@ -75,7 +75,7 @@ app.get('/computacion/categoria/:categoria', async (req, res) => {
     if (productos.length > 0){
         res.status(200).json(productos);
     } else {
-        res.status(404).send('No se econtraron productos de dicha categoria');
+        res.status(404).send('No se econtraron productos de dicha categoria, mamahuevo');
     }
 });
 
